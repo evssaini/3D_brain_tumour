@@ -1,3 +1,7 @@
+The project addresses the challenge of making segmentation outputs more interpretable and clinically useful through advanced visualization techniques. A 3D U-Net was trained on the BraTS2021 multimodal MRI dataset to segment gliomas and their subregions, forming the foundation for a visual explanation. Incorporate Grad-CAM heatmaps to highlight spatial regions influencing predictions, voxel-level Softmax probability maps to show class confidence, and Monte Carlo Dropout-based variance maps to quantify uncertainty, and an interactive 3D web application to visualise the tumor section using the Marching Cubes algorithm, allowing clinicians to explore tumor morphology, assess model confidence, and understand the prediction rationale. This work demonstrates that visualising predictions, uncertainty, and network attention can bridge the gap between deep learning performance and clinical interpretability, supporting more informed decision-making in neuro-oncology.
+
+
+
 Steps to create a virtual environment to run the 3D mesh web application file (app.py) on your machine (Windows).
 1.	Open Command Prompt and navigate to the folder where the project is stored. This ensures that the virtual environment folder is created alongside the project file.
 For example:
