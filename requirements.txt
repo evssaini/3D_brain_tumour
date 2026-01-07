@@ -1,0 +1,10 @@
+!pip install nibabel -q
+!pip install scikit-learn -q
+!pip install tqdm -q
+!pip install split-folders -q
+!pip install torchinfo -q
+!pip install segmentation-models-pytorch-3d -q
+!pip install livelossplot -q
+!pip install torchmetrics -q
+!pip install tensorboard -q
+!apt-get install tree
