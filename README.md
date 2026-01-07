@@ -1,4 +1,4 @@
-# 🧠 3D Brain Tumour Reconstruction Using Deep Learning
+# 🧠 3D brain tumour segmentation and visualisation for improved clinical understanding
 
 📌 Overview
 
