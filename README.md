@@ -8,21 +8,21 @@ This work demonstrates that visualising predictions, uncertainty, and network at
 
 For better understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-segmentation-and-visualisation-for-improved-clinical-understanding-98ad5168f015
 
-🛠️ Key Features
+## 🛠️ Key Features
 1. Preprocessing of brain MRI scans for tumour analysis.
 2. Deep learning based tumour segmentation.
 3. 3D reconstruction of tumour regions from segmented slices.
 4. Visualisation of tumour volume and structure.
 5. Modular and extensible codebase for experimentation and research.
 
-🧩 Project Workflow
+## 🧩 Project Workflow
 1. Input Data - MRI brain scans.
 2. Preprocessing - Normalisation and preparation of imaging data.
 3. Segmentation - Deep learning model identifies tumour regions.
 4. 3D Reconstruction - Tumour volume reconstructed from segmented slices.
 5. Visualisation - 3D tumour representation for analysis.
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 1. Python
 2. PyTorch
 3. NumPy
@@ -32,7 +32,7 @@ For better understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-
 7. Deep Learning
 8. Computer Vision
 
-🚀 Installation
+## 🚀 Installation
 
 Clone the repository:
 
@@ -42,20 +42,20 @@ cd 3D_brain_tumour
 Install dependecies:
 pip install -r requirements.txt
 
-▶️ Usage
+## ▶️ Usage
 1. Add MRI scan data to the directory.
 2. Run the preprocessing and segmentation scripts as outlined in the repository.
 3. Execute the reconstruction module to generate a 3D tumour model.
 4. Visualise the output using the provided visualisation scripts.
 (Note: Sample datasets are not included due to size and licensing constraints.)
 
-📈 Learning Outcomes
+## 📈 Learning Outcomes
 1. Applied deep learning to a real-world medical imaging problem.
 2. Gained experience with 3D data reconstruction and visualisation.
 3. Strengthened understanding of AI workflows in healthcare.
 4. Improved skills in Python-based machine learning pipelines.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 1. Integration of advanced segmentation models.
 2. Interactive 3D visualisation.
 3. Deployment as a lightweight web.
