@@ -36,13 +36,10 @@ For better understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-
 
 ## 🚀 Installation
 
-Clone the repository:
-
-git clone https://github.com/evssaini/3D_brain_tumour.git
-cd 3D_brain_tumour
-
 Install dependecies:
+```python
 pip install -r requirements.txt
+```
 
 ## ▶️ Usage
 1. Add MRI scan data to the directory.
