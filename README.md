@@ -5,7 +5,7 @@
 The project addresses the challenge of making segmentation outputs more interpretable and clinically useful through advanced visualisation techniques. A 3D U-Net was trained on the BraTS2021 multimodal MRI dataset to segment gliomas and their subregions, forming the foundation for a visual explanation. Incorporate Grad-CAM heatmaps to highlight spatial regions influencing predictions, voxel-level Softmax probability maps to show class confidence, and Monte Carlo Dropout-based variance maps to quantify uncertainty, and an interactive 3D web application to visualise the tumour section using the Marching Cubes algorithm, allowing clinicians to explore tumour morphology, assess model confidence, and understand the prediction rationale. This work demonstrates that visualising predictions, uncertainty, and network attention can bridge the gap between deep learning performance and clinical interpretability, supporting more informed decision-making in neuro-oncology.
 
 
-For better understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-segmentation-and-visualisation-for-improved-clinical-understanding-98ad5168f015
+For more detailed understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-segmentation-and-visualisation-for-improved-clinical-understanding-98ad5168f015
 
 
 
