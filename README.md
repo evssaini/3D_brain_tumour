@@ -8,6 +8,9 @@ This work demonstrates that visualising predictions, uncertainty, and network at
 
 For better understanding, Medium: https://medium.com/@ershveers/3d-brain-tumour-segmentation-and-visualisation-for-improved-clinical-understanding-98ad5168f015
 
+<img width="511" height="491" alt="Project_Overview_Arch_pic drawio" src="https://github.com/user-attachments/assets/812c8500-9c26-4a8d-bc59-7e6d2d2d9136" />
+
+
 ## 🛠️ Key Features
 1. Preprocessing of brain MRI scans for tumour analysis.
 2. Deep learning based tumour segmentation.
