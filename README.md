@@ -48,6 +48,10 @@ pip install -r requirements.txt
 4. Visualise the output using the provided visualisation scripts.
 (Note: Sample datasets are not included due to size and licensing constraints.)
 
+## 📈 Results
+<img width="1657" height="1618" alt="combined_visualization_axial" src="https://github.com/user-attachments/assets/0b0c8ce9-18e8-495a-9227-30433905a105" />
+Example of tumor segmentation on axial slices [0,31,63,95,127]. Rows show MRI modalities (T1ce, FLAIR, T2), ground truth masks, and predicted masks. Colour representation- purple: background; blue: necrotic core; green: edema; yellow: enhancing tumor.
+
 ## 📈 Learning Outcomes
 1. Applied deep learning to a real-world medical imaging problem.
 2. Gained experience with 3D data reconstruction and visualisation.
