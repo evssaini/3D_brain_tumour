@@ -49,8 +49,36 @@ pip install -r requirements.txt
 (Note: Sample datasets are not included due to size and licensing constraints.)
 
 ## 📈 Results
-<img width="1657" height="1618" alt="combined_visualization_axial" src="https://github.com/user-attachments/assets/0b0c8ce9-18e8-495a-9227-30433905a105" />
-Example of tumor segmentation on axial slices [0,31,63,95,127]. Rows show MRI modalities (T1ce, FLAIR, T2), ground truth masks, and predicted masks. Colour representation- purple: background; blue: necrotic core; green: edema; yellow: enhancing tumor.
+
+1. Example of tumour segmentation on axial slices [0,31,63,95,127]. Rows show MRI modalities (T1ce, FLAIR, T2), ground truth masks, and predicted masks. Colour representation- purple: background; blue: necrotic core; green: edema; yellow: enhancing tumour.
+   
+   <img width="1657" height="1618" alt="combined_visualization_axial" src="https://github.com/user-attachments/assets/0b0c8ce9-18e8-495a-9227-30433905a105" />
+
+2. Grad-CAM Heatmap, for each class (Necrotic core, Edema, Tumour, and Enhancing Tumor), row-wise respectively, showing 5 slices [0,31,63,95,127], column-wise, for the axial plane, slice 95 shows the best tumour view, highlights the regions most important for the model’s prediction by weighting feature maps with their gradients. Brighter areas in the heatmap show regions that contributed more strongly to the chosen class.
+   
+   <img width="1799" height="922" alt="gradcam_heatmaps_axial" src="https://github.com/user-attachments/assets/8199fb00-f4d3-4009-9350-01624a03bf28" />
+   
+
+3.  Softmax Probability Map, for each class (Background, Necrotic core, Edema, and Enhancing Tumor), row-wise respectively, showing 5 slices [0,31,63,95,127], column-wise, for the axial plane, slice 95 shows the best tumour view, bright regions (yellow) represent high probability and strong model confidence, while darker regions (black) indicate lower probability and greater uncertainty about voxel belongs to that class.
+   
+   <img width="1799" height="1229" alt="softmax_probabilities_axial" src="https://github.com/user-attachments/assets/2415f2c4-f0d9-478c-9692-45ec39aaa443" />
+   
+
+4. Monte Carlo Uncertainty Map, for each class (Necrotic core, Edema, and Enhancing Tumor), row-wise respectively, showing 5 slices [0,31,63,95,127], column-wise, for the axial plane, slice 95 shows the best tumour view, brighter regions indicate high variance, where the model’s predictions fluctuate across runs, reflecting greater uncertainty. This is most visible near tumour boundaries, where tissue transitions are naturally ambiguous.
+   
+   <img width="1799" height="922" alt="uncertainty_heatmaps_axial" src="https://github.com/user-attachments/assets/adbe47bb-abcc-4472-a7c5-c998bd3f454d" />
+
+5.  Whole 3D brain-tumour mesh of patient ID: BraTS2021 00281, with different functionalities (buttons, on top)
+
+   <img width="1805" height="520" alt="Screenshot 2025-07-31 182820" src="https://github.com/user-attachments/assets/27016970-99b4-4cc1-b321-80dda621dde3" />
+
+   <img width="690" height="539" alt="Screenshot 2025-07-31 182830" src="https://github.com/user-attachments/assets/ef4c3827-7e23-4af9-813f-5809486470e7" />
+
+
+
+
+
+
 
 ## 📈 Learning Outcomes
 1. Applied deep learning to a real-world medical imaging problem.
